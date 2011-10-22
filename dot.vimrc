@@ -15,6 +15,8 @@ filetype on
 filetype plugin indent on
 
 syntax enable
+set background=light
+colorscheme solarized
 
 " Tabs
 set tabstop=4
@@ -43,3 +45,22 @@ let zshrc='~/.zshrc'
 nn <leader>u :source <C-R>=vimrc<CR><CR>
 nn <leader>v :edit   <C-R>=vimrc<CR><CR>
 nn <leader>b :edit <C-R>=zshrc<CR><CR>
+
+" Tasklist 
+map <leader>td <Plug>TaskList
+
+" Python customisations
+let g:pyflakes_use_quickfix = 0
+let g:pep8_map='<leader>8'
+au FileType python set omnifunc=pythoncomplete#Complete
+let g:SuperTabDefaultCompletionType = "context"
+set completeopt=menuone,longest,preview
+
+" NERDTree
+map <leader>n :NERDTreeToggle<CR>
+
+" ack
+nmap <leader>a <Esc>:Ack!
+
+" Status line with git info
+set statusline=[%l,%v\ %P%M]\ %f\ %r%h%w\ (%{&ff})\ %{fugitive#statusline()}
