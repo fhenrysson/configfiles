@@ -15,7 +15,7 @@ filetype on
 filetype plugin indent on
 
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
 
 " Tabs
@@ -38,6 +38,7 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
+set incsearch
 set undofile
 
 let vimrc='~/.vimrc'
@@ -64,3 +65,6 @@ nmap <leader>a <Esc>:Ack!
 
 " Status line with git info
 set statusline=[%l,%v\ %P%M]\ %f\ %r%h%w\ (%{&ff})\ %{fugitive#statusline()}
+
+
+set guifont=Bitstream\ Vera\ Sans\ Mono\ 8
