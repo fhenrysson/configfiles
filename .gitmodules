@@ -46,3 +46,6 @@
 [submodule "vimdir/bundle/vimoutliner"]
 	path = vimdir/bundle/vimoutliner
 	url = https://github.com/vimoutliner/vimoutliner.git
+[submodule "vimdir/bundle/rainbow_parentheses"]
+	path = vimdir/bundle/rainbow_parentheses
+	url = https://github.com/kien/rainbow_parentheses.vim.git
