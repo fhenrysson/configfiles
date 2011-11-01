@@ -66,5 +66,8 @@ nmap <leader>a <Esc>:Ack!
 " Status line with git info
 set statusline=[%l,%v\ %P%M]\ %f\ %r%h%w\ (%{&ff})\ %{fugitive#statusline()}
 
-
 set guifont=Bitstream\ Vera\ Sans\ Mono\ 8
+
+" Display whitespaces
+set list
+set listchars=tab:>.,trail:.,extends:#,nbsp:.
