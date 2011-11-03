@@ -63,6 +63,10 @@ map <leader>n :NERDTreeToggle<CR>
 " ack
 nmap <leader>a <Esc>:Ack!
 
+" Change Command-t bindings
+nnoremap <silent> <Leader>r :CommandT<CR>
+nnoremap <silent> <Leader>b :CommandTBuffer<CR>
+
 " Status line with git info
 set statusline=[%l,%v\ %P%M]\ %f\ %r%h%w\ (%{&ff})\ %{fugitive#statusline()}
 
