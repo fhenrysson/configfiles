@@ -49,3 +49,6 @@
 [submodule "vimdir/bundle/rainbow_parentheses"]
 	path = vimdir/bundle/rainbow_parentheses
 	url = https://github.com/kien/rainbow_parentheses.vim.git
+[submodule "vimdir/bundle/python-mode"]
+	path = vimdir/bundle/python-mode
+	url = git://github.com/klen/python-mode.git

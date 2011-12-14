@@ -15,7 +15,7 @@ filetype on
 filetype plugin indent on
 
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
 
 " Tabs
@@ -39,7 +39,6 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set incsearch
-set undofile
 
 let vimrc='~/.vimrc'
 let zshrc='~/.zshrc'
@@ -47,7 +46,7 @@ nn <leader>u :source <C-R>=vimrc<CR><CR>
 nn <leader>v :edit   <C-R>=vimrc<CR><CR>
 nn <leader>b :edit <C-R>=zshrc<CR><CR>
 
-" Tasklist 
+" Tasklist
 map <leader>td <Plug>TaskList
 
 " Python customisations
@@ -56,7 +55,7 @@ let g:pep8_map='<leader>8'
 au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
-autocmd FileType python compiler pylint
+" autocmd FileType python compiler pylint
 
 " NERDTree
 map <leader>n :NERDTreeToggle<CR>
