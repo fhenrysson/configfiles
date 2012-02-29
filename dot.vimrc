@@ -44,7 +44,7 @@ let vimrc='~/.vimrc'
 let zshrc='~/.zshrc'
 nn <leader>u :source <C-R>=vimrc<CR><CR>
 nn <leader>v :edit   <C-R>=vimrc<CR><CR>
-nn <leader>b :edit <C-R>=zshrc<CR><CR>
+nn <leader>z :edit <C-R>=zshrc<CR><CR>
 
 " Tasklist
 map <leader>td <Plug>TaskList
