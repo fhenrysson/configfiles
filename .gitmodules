@@ -52,3 +52,6 @@
 [submodule "vimdir/bundle/python-mode"]
 	path = vimdir/bundle/python-mode
 	url = git://github.com/klen/python-mode.git
+[submodule "vimdir/bundle/vim-protobuf"]
+	path = vimdir/bundle/vim-protobuf
+	url = https://github.com/fhenrysson/vim-protobuf.git
