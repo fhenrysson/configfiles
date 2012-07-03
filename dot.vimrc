@@ -15,8 +15,8 @@ filetype on
 filetype plugin indent on
 
 syntax enable
-set background=light
-colorscheme solarized
+set background=dark
+colorscheme Tomorrow-Night
 
 " Tabs
 set tabstop=4
@@ -70,7 +70,7 @@ nnoremap <silent> <Leader>b :CommandTBuffer<CR>
 " Status line with git info
 set statusline=[%l,%v\ %P%M]\ %f\ %r%h%w\ (%{&ff})\ %{fugitive#statusline()}
 
-set guifont=Bitstream\ Vera\ Sans\ Mono\ 8
+set guifont=Ubuntu\ Mono\ 8
 
 " Display whitespaces
 set list
