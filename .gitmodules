@@ -55,3 +55,6 @@
 [submodule "vimdir/bundle/vim-protobuf"]
 	path = vimdir/bundle/vim-protobuf
 	url = https://github.com/fhenrysson/vim-protobuf.git
+[submodule "vimdir/bundle/tomorrow-theme"]
+	path = vimdir/bundle/tomorrow-theme
+	url = https://github.com/chriskempson/vim-tomorrow-theme.git
