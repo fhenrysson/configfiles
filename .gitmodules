@@ -58,3 +58,6 @@
 [submodule "vimdir/bundle/tomorrow-theme"]
 	path = vimdir/bundle/tomorrow-theme
 	url = https://github.com/chriskempson/vim-tomorrow-theme.git
+[submodule "vimdir/bundle/puppet"]
+	path = vimdir/bundle/puppet
+	url = git://github.com/rodjek/vim-puppet.git
