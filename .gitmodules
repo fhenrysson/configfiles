@@ -61,3 +61,6 @@
 [submodule "vimdir/bundle/puppet"]
 	path = vimdir/bundle/puppet
 	url = git://github.com/rodjek/vim-puppet.git
+[submodule "vimdir/bundle/vim-cucumber"]
+	path = vimdir/bundle/vim-cucumber
+	url = https://github.com/tpope/vim-cucumber.git
