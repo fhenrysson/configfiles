@@ -64,3 +64,9 @@
 [submodule "vimdir/bundle/vim-cucumber"]
 	path = vimdir/bundle/vim-cucumber
 	url = https://github.com/tpope/vim-cucumber.git
+[submodule "vimdir/bundle/fish-syntax"]
+	path = vimdir/bundle/fish-syntax
+	url = https://github.com/vim-scripts/fish-syntax.git
+[submodule "vimdir/bundle/hammer.vim"]
+	path = vimdir/bundle/hammer.vim
+	url = git://github.com/matthias-guenther/hammer.vim.git
