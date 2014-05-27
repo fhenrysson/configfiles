@@ -70,3 +70,9 @@
 [submodule "vimdir/bundle/hammer.vim"]
 	path = vimdir/bundle/hammer.vim
 	url = git://github.com/matthias-guenther/hammer.vim.git
+[submodule "vimdir/bundle/vim-rails"]
+	path = vimdir/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "vimdir/bundle/vim-bundler"]
+	path = vimdir/bundle/vim-bundler
+	url = https://github.com/tpope/vim-bundler.git
