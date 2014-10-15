@@ -10,9 +10,6 @@
 [submodule "vimdir/bundle/supertab"]
 	path = vimdir/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule "vimdir/bundle/minibufexpl"]
-	path = vimdir/bundle/minibufexpl
-	url = https://github.com/sontek/minibufexpl.vim.git
 [submodule "vimdir/bundle/command-t"]
 	path = vimdir/bundle/command-t
 	url = https://github.com/wincent/Command-T.git
@@ -76,3 +73,6 @@
 [submodule "vimdir/bundle/vim-bundler"]
 	path = vimdir/bundle/vim-bundler
 	url = https://github.com/tpope/vim-bundler.git
+[submodule "vimdir/bundle/minibufexpl"]
+	path = vimdir/bundle/minibufexpl
+	url = https://github.com/fholgado/minibufexpl.vim.git
